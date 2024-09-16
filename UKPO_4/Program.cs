@@ -12,7 +12,7 @@ namespace UKPO_4
             int min = int.Parse(Console.ReadLine());
             if (min < 100_000) min = 100_000;
 
-            Console.Write("Введите нижнюю границу диапазона : ");
+            Console.Write("Введите верхнюю границу диапазона : ");
             int max = int.Parse(Console.ReadLine());
             if (max > 999_999) max = 999_999;
 
