@@ -10,7 +10,7 @@ namespace UKPO_8
             List<MainsVoltage> voltages = new()
             {
                 new Voltage220V(2, "T1", 440),
-                new Voltage360V(4, "T2", 180)
+                new Voltage360V("T2", 180)
             };
 
             Console.WriteLine(string.Join(Environment.NewLine, voltages));

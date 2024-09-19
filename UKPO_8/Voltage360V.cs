@@ -4,14 +4,12 @@
     {
         protected string _type;
         protected decimal _resistanse;
-        //protected int _amperage;
 
-        public Voltage360V(uint fazeNumber, string type, decimal resistanse)
-            : base(360, fazeNumber)
+        public Voltage360V(string type, decimal resistanse)
+            : base(360, 3)
         {
             _type = type;
             _resistanse = resistanse;
-
         }
 
         public override decimal Amperage()
